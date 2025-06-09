@@ -26,11 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tayden1990/domain-manager-bot.git"
+    "url": "https://github.com/tayden1990/domain-manager.git"
   },
-  "homepage": "https://github.com/tayden1990/domain-manager-bot#readme",
+  "homepage": "https://github.com/tayden1990/domain-manager#readme",
   "bugs": {
-    "url": "https://github.com/tayden1990/domain-manager-bot/issues"
+    "url": "https://github.com/tayden1990/domain-manager/issues"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",

@@ -25,8 +25,8 @@ This project is part of research in medical informatics and automation systems. 
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/tayden1990/domain-manager-bot.git
-   cd domain-manager-bot
+   git clone https://github.com/tayden1990/domain-manager.git
+   cd domain-manager
    ```
 
 2. **Set up development environment**

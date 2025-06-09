@@ -587,26 +587,23 @@ For academic collaboration, research questions, or educational use:
 
 ### 💻 Technical Support
 For technical issues, bug reports, or feature requests:
-- **GitHub Issues**: [Create an issue](https://github.com/tayden1990/domain-manager-bot/issues)
+- **GitHub Issues**: [Create an issue](https://github.com/tayden1990/domain-manager/issues)
 - **Telegram**: [@tayden2023](https://t.me/tayden2023)
 
 ### 📊 Project Statistics
 
-![GitHub stars](https://img.shields.io/github/stars/tayden1990/domain-manager-bot?style=social)
-![GitHub forks](https://img.shields.io/github/forks/tayden1990/domain-manager-bot?style=social)
-![GitHub issues](https://img.shields.io/github/issues/tayden1990/domain-manager-bot)
-![GitHub license](https://img.shields.io/github/license/tayden1990/domain-manager-bot)
+![GitHub stars](https://img.shields.io/github/stars/tayden1990/domain-manager?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tayden1990/domain-manager?style=social)
+![GitHub issues](https://img.shields.io/github/issues/tayden1990/domain-manager)
+![GitHub license](https://img.shields.io/github/license/tayden1990/domain-manager)
 
 ## 🔗 Links
 
 - **Docker Hub**: https://hub.docker.com/r/taksa1990/domain-manager-bot
-- **GitHub Repository**: https://github.com/tayden1990/domain-manager-bot
-- **Issues & Bug Reports**: https://github.com/tayden1990/domain-manager-bot/issues
-- **EmailJS Documentation**: https://www.emailjs.com/docs/
-- **Telegram Bot API**: https://core.telegram.org/bots/api
-- **Docker Documentation**: https://docs.docker.com/
-
-## 📞 Support
+- **GitHub Repository**: https://github.com/tayden1990/domain-manager
+- **Issues & Bug Reports**: https://github.com/tayden1990/domain-manager/issues
+- **Author's GitHub**: https://github.com/tayden1990
+- **Author's Telegram**: https://t.me/tayden2023
 
 ### Getting Help
 1. **Check this README** - Most common issues are covered here
@@ -644,7 +641,7 @@ If you use this software in your research, please cite it using the following fo
 
 ### APA Style
 ```
-Akbari Saeed, T. (2025). Domain Manager Telegram Bot: An Automated System for Domain Monitoring and Management (Version 1.0.0) [Computer software]. GitHub. https://github.com/tayden1990/domain-manager-bot
+Akbari Saeed, T. (2025). Domain Manager Telegram Bot: An Automated System for Domain Monitoring and Management (Version 1.0.0) [Computer software]. GitHub. https://github.com/tayden1990/domain-manager
 ```
 
 ### BibTeX
@@ -652,7 +649,7 @@ Akbari Saeed, T. (2025). Domain Manager Telegram Bot: An Automated System for Do
 @software{akbarisaeed2025domainmanager,
   author = {Akbari Saeed, Taher},
   title = {Domain Manager Telegram Bot: An Automated System for Domain Monitoring and Management},
-  url = {https://github.com/tayden1990/domain-manager-bot},
+  url = {https://github.com/tayden1990/domain-manager},
   version = {1.0.0},
   year = {2025},
   month = {1}

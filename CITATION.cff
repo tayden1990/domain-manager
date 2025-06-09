@@ -9,8 +9,8 @@ authors:
     email: "taherakbarisaeed@gmail.com"
     orcid: "https://orcid.org/0000-0002-9517-9773"
     affiliation: "Department of Oncology, Hematology, and Radiotherapy, Institute of Postgraduate Education, Pirogov Russian National Research Medical University (RNRMU), Russia"
-repository-code: "https://github.com/tayden1990/domain-manager-bot"
-url: "https://github.com/tayden1990/domain-manager-bot"
+repository-code: "https://github.com/tayden1990/domain-manager"
+url: "https://github.com/tayden1990/domain-manager"
 license: MIT
 version: "1.0.0"
 date-released: "2025-01-07"
@@ -34,7 +34,7 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0002-9517-9773"
       affiliation: "Department of Oncology, Hematology, and Radiotherapy, Institute of Postgraduate Education, Pirogov Russian National Research Medical University (RNRMU), Russia"
   year: 2025
-  url: "https://github.com/tayden1990/domain-manager-bot"
-  repository-code: "https://github.com/tayden1990/domain-manager-bot"
+  url: "https://github.com/tayden1990/domain-manager"
+  repository-code: "https://github.com/tayden1990/domain-manager"
   license: MIT
   abstract: "A TypeScript-based Telegram bot application designed for automated domain management and expiration monitoring. This academic research project demonstrates the application of automation technologies in system administration and showcases integration patterns for modern messaging platforms, email services, and database management."
