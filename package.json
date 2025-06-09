@@ -1,0 +1,48 @@
+{
+  "name": "domain-manager-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for domain management and expiration monitoring",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "domain",
+    "management",
+    "whois",
+    "monitoring",
+    "typescript",
+    "docker"
+  ],
+  "author": "tayden1990",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tayden1990/domain-manager-bot.git"
+  },
+  "homepage": "https://github.com/tayden1990/domain-manager-bot#readme",
+  "bugs": {
+    "url": "https://github.com/tayden1990/domain-manager-bot/issues"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "better-sqlite3": "^9.2.2",
+    "node-cron": "^3.0.3",
+    "whois": "^2.13.5",
+    "@emailjs/browser": "^4.3.3",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/node-telegram-bot-api": "^0.64.0",
+    "@types/node-cron": "^3.0.8",
+    "@types/better-sqlite3": "^7.6.8",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+}

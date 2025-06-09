@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  domain-manager-bot:
+    image: taksa1990/domain-manager-bot:latest
+    container_name: domain-manager-bot
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    volumes:
+      - /var/lib/domain-bot/data:/app/data
+    networks:
+      - domain-bot-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  domain-bot-network:
+    driver: bridge

@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  domain-manager-bot:
+    build: .
+    container_name: domain-manager-bot
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=7600558529:AAHqxS3pgivHwVORAnVGEDcl6FgeLEovdvU
+      - EMAILJS_SERVICE_ID=service_l2me01n
+      - EMAILJS_TEMPLATE_ID=template_mvlioke
+      - EMAILJS_PUBLIC_KEY=LnwagvLgaJyV3Heyc
+      - EMAILJS_PRIVATE_KEY=aqM0bOv5CZbIY0_uXWrDz
+      - DATABASE_PATH=/app/data/database.sqlite
+      - NODE_ENV=production
+    volumes:
+      - bot-data:/app/data
+
+volumes:
+  bot-data:
