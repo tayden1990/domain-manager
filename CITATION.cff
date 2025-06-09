@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Domain Manager Telegram Bot"
+abstract: "A comprehensive Telegram bot for domain management, expiration monitoring, and renewal reminders developed for academic research in medical informatics and automation systems."
+authors:
+  - family-names: "Akbari Saeed"
+    given-names: "Taher"
+    email: "taherakbarisaeed@gmail.com"
+    orcid: "https://orcid.org/0000-0002-9517-9773"
+    affiliation: "Department of Oncology, Hematology, and Radiotherapy, Institute of Postgraduate Education, Pirogov Russian National Research Medical University (RNRMU), Russia"
+repository-code: "https://github.com/tayden1990/domain-manager-bot"
+url: "https://github.com/tayden1990/domain-manager-bot"
+license: MIT
+version: "1.0.0"
+date-released: "2025-01-07"
+keywords:
+  - "telegram bot"
+  - "domain management"
+  - "automation"
+  - "medical informatics"
+  - "typescript"
+  - "docker"
+  - "whois"
+  - "monitoring"
+  - "healthcare technology"
+preferred-citation:
+  type: software
+  title: "Domain Manager Telegram Bot: An Automated System for Domain Monitoring and Management"
+  authors:
+    - family-names: "Akbari Saeed"
+      given-names: "Taher"
+      email: "taherakbarisaeed@gmail.com"
+      orcid: "https://orcid.org/0000-0002-9517-9773"
+      affiliation: "Department of Oncology, Hematology, and Radiotherapy, Institute of Postgraduate Education, Pirogov Russian National Research Medical University (RNRMU), Russia"
+  year: 2025
+  url: "https://github.com/tayden1990/domain-manager-bot"
+  repository-code: "https://github.com/tayden1990/domain-manager-bot"
+  license: MIT
+  abstract: "A TypeScript-based Telegram bot application designed for automated domain management and expiration monitoring. This academic research project demonstrates the application of automation technologies in system administration and showcases integration patterns for modern messaging platforms, email services, and database management."

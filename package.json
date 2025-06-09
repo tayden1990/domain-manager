@@ -18,7 +18,11 @@
     "typescript",
     "docker"
   ],
-  "author": "tayden1990",
+  "author": {
+    "name": "Taher Akbari Saeed",
+    "email": "taherakbarisaeed@gmail.com",
+    "url": "https://github.com/tayden1990"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",

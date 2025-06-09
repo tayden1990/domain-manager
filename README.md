@@ -7,6 +7,9 @@ A comprehensive Telegram bot for domain management, expiration monitoring, and r
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 
+> 🎓 **Academic Project**: Developed as part of research in medical informatics and automation systems  
+> 🏥 Pirogov Russian National Research Medical University (RNRMU)
+
 ## ✨ Features
 
 - 📧 **Email Verification** - Secure account creation with EmailJS integration
@@ -524,7 +527,77 @@ docker network create --internal domain-bot-internal
 docker run --network domain-bot-internal taksa1990/domain-manager-bot:latest
 ```
 
-## 🔗 Useful Links
+## 👨‍🎓 About the Author
+
+**Taher Akbari Saeed**  
+*Postgraduate Student in Hematology and Blood Transfusion*
+
+🏫 **Institution**: Department of Oncology, Hematology, and Radiotherapy  
+Institute of Postgraduate Education  
+Pirogov Russian National Research Medical University (RNRMU), Russia
+
+🔬 **Research Focus**: Medical informatics, automation systems in healthcare, and data management solutions
+
+📞 **Contact Information**:
+- 📧 **Email**: [taherakbarisaeed@gmail.com](mailto:taherakbarisaeed@gmail.com)
+- 🐙 **GitHub**: [@tayden1990](https://github.com/tayden1990)
+- 💬 **Telegram**: [@tayden2023](https://t.me/tayden2023)
+- 🔗 **ORCID**: [0000-0002-9517-9773](https://orcid.org/0000-0002-9517-9773)
+
+## 🤝 Contributing
+
+We welcome contributions from the community! This project was developed with academic rigor and follows best practices in software engineering.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### 📋 Contribution Guidelines
+
+- Follow TypeScript best practices
+- Include comprehensive documentation
+- Add unit tests for new features
+- Ensure Docker compatibility
+- Follow academic coding standards
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Copyright (c) 2025 Taher Akbari Saeed**
+
+## 🙏 Acknowledgments
+
+- **Pirogov Russian National Research Medical University (RNRMU)** for providing the research environment
+- **Department of Oncology, Hematology, and Radiotherapy** for academic support
+- Open source community for the excellent libraries and tools
+- [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) - Telegram Bot API wrapper
+- [EmailJS](https://www.emailjs.com/) - Email service integration
+- [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3) - SQLite database driver
+- [whois](https://github.com/FurqanSoftware/node-whois) - WHOIS lookup functionality
+
+## 📞 Support & Contact
+
+### 🎓 Academic Inquiries
+For academic collaboration, research questions, or educational use:
+- **Email**: [taherakbarisaeed@gmail.com](mailto:taherakbarisaeed@gmail.com)
+- **ORCID**: [0000-0002-9517-9773](https://orcid.org/0000-0002-9517-9773)
+
+### 💻 Technical Support
+For technical issues, bug reports, or feature requests:
+- **GitHub Issues**: [Create an issue](https://github.com/tayden1990/domain-manager-bot/issues)
+- **Telegram**: [@tayden2023](https://t.me/tayden2023)
+
+### 📊 Project Statistics
+
+![GitHub stars](https://img.shields.io/github/stars/tayden1990/domain-manager-bot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tayden1990/domain-manager-bot?style=social)
+![GitHub issues](https://img.shields.io/github/issues/tayden1990/domain-manager-bot)
+![GitHub license](https://img.shields.io/github/license/tayden1990/domain-manager-bot)
+
+## 🔗 Links
 
 - **Docker Hub**: https://hub.docker.com/r/taksa1990/domain-manager-bot
 - **GitHub Repository**: https://github.com/tayden1990/domain-manager-bot
@@ -560,6 +633,31 @@ docker exec domain-bot env | grep -v -E "TOKEN|KEY"
 
 ---
 
-**Made with ❤️ for domain management automation**
+**Made with ❤️ for domain management automation**  
+*🎓 Academic research project in medical informatics*
 
-*Star ⭐ this project on GitHub if you find it useful!*
+*Star ⭐ this project on GitHub if you find it useful for your research or projects!*
+
+## 📝 Citation
+
+If you use this software in your research, please cite it using the following format:
+
+### APA Style
+```
+Akbari Saeed, T. (2025). Domain Manager Telegram Bot: An Automated System for Domain Monitoring and Management (Version 1.0.0) [Computer software]. GitHub. https://github.com/tayden1990/domain-manager-bot
+```
+
+### BibTeX
+```bibtex
+@software{akbarisaeed2025domainmanager,
+  author = {Akbari Saeed, Taher},
+  title = {Domain Manager Telegram Bot: An Automated System for Domain Monitoring and Management},
+  url = {https://github.com/tayden1990/domain-manager-bot},
+  version = {1.0.0},
+  year = {2025},
+  month = {1}
+}
+```
+
+### Citation File
+This repository includes a `CITATION.cff` file for automatic citation generation. GitHub will automatically display citation information when you click "Cite this repository" on the main page.
