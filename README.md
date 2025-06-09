@@ -118,12 +118,48 @@ docker run -d \
 
 #### Option C: Using Docker Compose
 ```bash
-# Download docker-compose file
-curl -o docker-compose.yml https://raw.githubusercontent.com/tayden1990/domain-manager-bot/main/docker-compose.yml
+# Create docker-compose.yml file
+cat > docker-compose.yml << 'EOF'
+version: '3.8'
+
+services:
+  domain-manager-bot:
+    image: taksa1990/domain-manager-bot:latest
+    container_name: domain-manager-bot
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    volumes:
+      - bot-data:/app/data
+    networks:
+      - domain-bot-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  domain-bot-network:
+    driver: bridge
+
+volumes:
+  bot-data:
+EOF
 
 # Create environment file
-cp .env.example .env.production
-nano .env.production  # Edit with your values
+cat > .env.production << 'EOF'
+TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN_HERE
+EMAILJS_SERVICE_ID=YOUR_SERVICE_ID_HERE
+EMAILJS_TEMPLATE_ID=YOUR_TEMPLATE_ID_HERE
+EMAILJS_PUBLIC_KEY=YOUR_PUBLIC_KEY_HERE
+EMAILJS_PRIVATE_KEY=YOUR_PRIVATE_KEY_HERE
+DATABASE_PATH=/app/data/database.sqlite
+NODE_ENV=production
+EOF
+
+# Edit the environment file with your actual values
+nano .env.production
 
 # Deploy
 docker-compose up -d
